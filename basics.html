@@ -1,0 +1,130 @@
+<!-- DOCTYPE tells the browser ho this thing should process. -->
+<!DOCTYPE html>
+<!-- HTML tag lets the browser know I'm ready to write some html -->
+<html>
+	<!-- Head tag is where stuff goes the user doesn't need to see
+	i.e., CSS, Javascript, meta tags, etc. -->
+	<head>
+		<!-- Title tag is what shows up in the browser "Tab". (Important for search engine optimization.)
+		Important when Google decides what your page is. This is also the link in search engine results. -->
+		<title>HTML Awsomeness!</title>
+		<!-- meta tags are for other systems to know stuff about your page. -->
+		<!-- This is what shows up under the link on search engine results. -->
+		<meta name="facebook-share" content="This is what would show up in the
+		post if you shared this on Facebook">
+
+		<!-- style tag lets it know we're about to do some CSS. -->
+		<style type="text/css" media="screen">
+			#body{
+				background-color: black;
+				color: white;
+			}	
+			body{
+				background-color: blue;
+				color: white;
+			}	
+			.registration{
+				color: red;
+			}
+		</style>
+
+		<!-- link tag links to a CSS file, (if there's a lot of it). -->
+		<link rel="stylesheet" type="text/css" href="">
+
+	</head>
+	<!-- Body tag is the stuff the user is supposed to see.
+	Links, images, text, etc. -->
+	<body id="body" my-favorite-team="ATL United">
+		<!-- If it's green, it's an attribute.
+		An attribute is like an HTML variable. Not complicated. -->
+
+		<h1 class="registration">Registration</h1>
+		<strong>This is a semantic tag</strong>
+		<nav>Nav tag in here</nav>
+		<div>
+			A structural tag defines how the HTML is built.
+		</div>
+		<p>
+			This is structural as well.
+		</p>
+		<sup>Superscript tag</sup>
+		<sub>Subscript tag</sub>
+		<abbr>This is an abbreviated tag</abbr>
+		<!-- h# tags are important for SEO.
+		They come with browser styling...You will usually override it. -->
+		<h1>An h1 tag</h1>
+		<h2>An h2 tag</h2>
+		<h3>An h3 tag</h3>
+		<h4>An h4 tag</h4>
+		<h5>An h5 tag</h5>
+		<h6>An h6 tag</h6>
+
+		<blockquote cite="http://example.com/facts">
+			<p>
+				How terrible is wisdom when it brings no profit to the wise.
+				<!-- Break tag makes a new line in text -->
+				<br />
+				<!-- hr tag is same as br with a big long line -->
+				<hr />
+				<cite>Sophocles</cite>
+
+			</p>
+		</blockquote>
+
+		<div>Text.      text,  text
+			text
+
+
+			text
+		</div>
+
+		<ul>
+			<li>Jennifer</li>
+			<li>Nikolas</li>
+			<li>Zach</li>
+			<li>Back Row
+				<ul>
+					<li>Jong</li>
+					<li>Binh</li>
+				</ul>
+			</li>
+		</ul>
+		<ol>
+			<li>Eddie</li>
+			<li>You</li>
+			<li>Crystal</li>
+		</ol>
+
+		<a href="https://google.com" target="_blank">Link to Google</a>
+		<a href="another-page.html" target="_blank">Link to another page.</a>
+
+		<a href="tel:5555555555">Call a bogus number</a>
+		<a href="mailto:rob@digitalcrafts.com">Email</a>
+
+		<img height=200 width=200 alt="Show up if no image" src="https://www.digitalcrafts.com/sites/all/themes/digitalcrafts/images/digitalcrafts-site-logo.png"/>
+
+		<table>
+			<caption>table title and/or explanatory text</caption>
+			<thead>
+				<tr>
+					<th>header</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>data</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<span class="test">A span tag</span>
+
+		<form>
+			<input type="text">
+			<input type="password">
+			<input type="email">
+			<input type="number">
+
+		</form>
+	</body>
+</html>
